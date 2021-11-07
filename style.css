@@ -1,0 +1,269 @@
+
+body{
+    margin: 0px;
+}
+
+/* Header*/
+
+/* this removes the dots on the list items*/
+ul {
+    list-style-type: none;
+  }
+  
+/* this removes the line under the links */
+  a {
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  /* Hacer que el header se aviente hasta arriba y hacia a los lados*/
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+  }
+  
+  ul {
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+  }
+
+  .left-links{
+      font-weight: bolder;
+      font-size: 24px;
+      color: #f9faf8;
+  }
+
+  .right-links{
+    font-size: 18px;
+    color: #e5e7eb;
+
+
+}
+
+
+
+  /* Section One */
+
+  .one2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items:center;
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 100px;
+  }
+
+  .one{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 200px;
+
+  }
+
+  img{
+      width: 200px;
+      height: auto;
+      margin: 10px;
+  }
+
+  .awesome{
+      color: #f9faf8;
+      font-size: 48px;
+      font-weight: bolder;
+      width: 300px;
+      padding-right: 200px;
+  }
+
+  .text{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sign{
+    font-size: 14px;
+    font-weight: 100;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color:  #3882f6;
+    border: 2px solid #3882f6;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+} 
+
+
+  /* Section 2 */
+
+
+  .recuadro{
+      border: 3px solid #3882f6;
+      height: 100px;
+      width: 100px;
+      background-color: white;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    color: #1f2937;
+    
+  }
+  
+  .frutas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+  } 
+  
+  .lista{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+.desc{
+    font-size: 14px;
+    color: #1f2937;
+    width: 100px;
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+
+
+    }
+
+
+  /* Section 3 */
+
+
+ .tres{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px;
+  }
+
+.quote{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 500px;
+}
+
+.author{
+    display: flex;
+    justify-content: right;
+    font-size: 21px;
+    font-weight: bold;
+    color: #1f2937;
+    width: 500px;
+
+
+}
+
+  /* Section 4  */
+
+  .cuatro{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .cuadro{
+    background-color: #3882f6;
+    width: 700px;
+    height: 100px;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+
+ } 
+
+ .hola{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+ }
+
+  .titulo{
+      font-size: 21px;
+      color: #f9faf8;
+      font-weight: bold;
+
+ } 
+
+ .textocuatro{
+    font-size: 16px;
+    font-weight: 100;
+    color: #f9faf8;
+
+} 
+
+.hola2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.sign2{
+    font-size: 14px;
+    font-weight: 100;
+    color: #f9faf8;
+    background-color:  #3882f6;
+    border: 2px solid white;
+    margin: 30px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+} 
+
+
+  /* Section 5 Footer */
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 30px;
+    font-weight: lighter;
+  }
+  
